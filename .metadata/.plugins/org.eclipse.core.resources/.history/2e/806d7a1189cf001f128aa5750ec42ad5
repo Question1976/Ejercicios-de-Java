@@ -1,0 +1,17 @@
+package presentacion;
+
+import java.util.Scanner;
+
+import logica.Restaurante;
+
+public class Main {
+
+	Scanner scanner = new Scanner(System.in);
+
+    // Crear un restaurante con 5 mesas, 
+	// cada una con capacidad para 10 pedidos.
+    Restaurante restaurante = new Restaurante(5, 10);
+    
+    
+    
+}

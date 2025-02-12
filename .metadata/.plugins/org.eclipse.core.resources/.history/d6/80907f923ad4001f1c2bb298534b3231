@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="web_05-pasar_variables_desde_servlet_a_jsp">
+        <property name="context-root" value="web_05-pasar_variables_desde_servlet_a_jsp"/>
+    </wb-module>
+</project-modules>

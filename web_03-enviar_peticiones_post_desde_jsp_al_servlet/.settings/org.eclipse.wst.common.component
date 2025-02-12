@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+            
+    
+    <wb-module deploy-name="web_02-enviar_parametros_get_desde_jsp_al_servlet">
+                        
+        
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+                        
+        
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+                        
+        
+        <property name="java-output-path" value="/web_02-enviar_parametros_get_desde_jsp_al_servlet/build/classes"/>
+        <property name="context-root" value="web_03-enviar_peticiones_post_desde_jsp_al_servlet"/>
+                    
+    
+    </wb-module>
+        
+
+</project-modules>

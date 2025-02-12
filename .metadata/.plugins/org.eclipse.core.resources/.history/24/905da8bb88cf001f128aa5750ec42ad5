@@ -1,0 +1,16 @@
+package logica;
+
+public class Restaurante {
+
+	private Mesa[] mesas;   // Array de mesas en el restaurante
+    private int contador;   // Contador de mesas registradas
+
+    // Constructor que inicializa el restaurante con un número fijo de mesas.
+    public Restaurante(int cantidadMesas, int capacidadPedidosPorMesa) {
+        mesas = new Mesa[cantidadMesas];
+        for (int i = 0; i < cantidadMesas; i++) {
+            mesas[i] = new Mesa(i + 1, capacidadPedidosPorMesa);
+        }
+        contador = cantidadMesas;
+    }
+}

@@ -1,0 +1,17 @@
+package modelo;
+
+public class Mesa {
+
+	private int numeroMesa;          // Número de la mesa
+    private String[] pedidos;        // Array de pedidos realizados en la mesa
+    private double[] precios;        // Precios de los pedidos
+    private int contadorPedidos;     // Contador de pedidos realizados
+    
+ // Constructor que inicializa la mesa con su número y capacidad de pedidos.
+    public Mesa(int numeroMesa, int capacidadPedidos) {
+        this.numeroMesa = numeroMesa;
+        this.pedidos = new String[capacidadPedidos];
+        this.precios = new double[capacidadPedidos];
+        this.contadorPedidos = 0;
+    }
+}

@@ -1,0 +1,9 @@
+package modelo;
+
+public class Mesa {
+
+	private int numeroMesa;          // Número de la mesa
+    private String[] pedidos;        // Array de pedidos realizados en la mesa
+    private double[] precios;        // Precios de los pedidos
+    private int contadorPedidos;     // Contador de pedidos realizados
+}
