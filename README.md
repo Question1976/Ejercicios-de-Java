@@ -1,4 +1,4 @@
-Ejercicios de Java SE para aprender a programar.
+Ejercicios de Java SE para aprender a programar en Java SE. Ideales para ejercitar la lógica de programación y aprender a manejar con soltura las estructuras más usadas del lenguaje.
 
 Contiene ejercicios que combinan: 
 - Condicionales
